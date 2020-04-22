@@ -1,21 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .landing-bg {
-  background: #FCBDEB;
-  min-height: 300px;
-  width: 100%;
+    background: #FCBDEB;
+    width: 100%;
+    padding: 10px;
 
+  h1 {
+    max-width: 50%;
+    border: 5px solid #FFFFFF;
+    margin: 80px auto;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding: 20px;
+  }
 }
 
-h1 {
-  max-width: 60%;
-  border: 5px solid #FFFFFF;
-  // margin: 0 auto;
-  margin: 40px auto .3em auto;
-  text-align: center;
-  font-size: 1.8em;
-  color: #FFFFFF;
-  font-weight: 400;
-  padding: 20px;
-}
 
 #purple-bar {
   width: 100%;
@@ -81,7 +83,7 @@ h1 {
 
 }
 
-.contact-section {
+#contact-section {
   height: 100px;
   text-align: center;
 
@@ -91,4 +93,9 @@ h1 {
     color: #DAD3FF;
     padding-top: 20px;
   }
+}
+
+#about-section {
+  height: 100px;
+  color: grey;
 }

@@ -36,10 +36,20 @@ $navbar-profile-border-width: 2px;
  * ------------------------------------- */
 .navbar {
   color: white;
+  background: #FCBDEB;
   font-size: 20px;
 
   a {
     color: white;
     text-decoration: none;
   }
+
+  a:hover {
+      background-color: white;
+      color: #FCBDEB;
+  }
+}
+
+.navbar-nav {
+  text-align: center;
 }
