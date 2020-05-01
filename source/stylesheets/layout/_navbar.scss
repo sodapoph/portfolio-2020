@@ -36,7 +36,7 @@ $navbar-profile-border-width: 2px;
  * ------------------------------------- */
 .navbar {
   color: white;
-  background: #FCBDEB;
+  background: #0800fc;
   font-size: 20px;
 
   a {
@@ -45,8 +45,12 @@ $navbar-profile-border-width: 2px;
   }
 
   a:hover {
-      background-color: white;
-      color: #FCBDEB;
+      font-family: "Libre Baskerville";
+      font-style: italic;
+      font-weight: bold;
+      color: white;
+      // letter-spacing: 1px;
+      // text-transform: uppercase;
   }
 }
 

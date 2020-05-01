@@ -1,11 +1,68 @@
 html {
   scroll-behavior: smooth;
 }
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 216px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  // border: 12px solid #0800fc;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 
 .landing-bg {
-    background: #FCBDEB;
+    background: #0800fc;
     width: 100%;
     padding: 10px;
+    margin-bottom: 10px;
 
   h1 {
     max-width: 50%;
@@ -15,24 +72,17 @@ html {
     color: #FFFFFF;
     font-weight: 400;
     padding: 20px;
+
+    .landing-sub {
+      font-size: 18px;
+    }
   }
 }
 
 
-#purple-bar {
+#bar {
   width: 100%;
-  height: 100px;
-  background: #DAD3FF;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  h2 {
-    color: #FFFFFF;
-    text-align: center;
-    font-weight: 400;
-    margin: inherit;
-  }
+  height: 65px;
 }
 
 .gifs {
@@ -50,42 +100,42 @@ html {
     }
 }
 
-.app-section {
-  justify-content: space-between;
-  height: 600px;
-  background: #F5F5F5;
-  padding: 30px;
+// .app-section {
+//   justify-content: space-between;
+//   height: 600px;
+//   background: #F5F5F5;
+//   padding: 30px;
 
-  .logo-paragraph {
-    width: 500px;
-    padding: 20px;
+//   .logo-paragraph {
+//     width: 500px;
+//     padding: 20px;
 
-    img {
-      height: 10%;
-      margin-bottom: 10px;
-    }
-  }
+//     img {
+//       height: 10%;
+//       margin-bottom: 10px;
+//     }
+//   }
 
-  .app-screens {
-    padding: 20px;
-    width: auto;
+//   .app-screens {
+//     padding: 20px;
+//     width: auto;
 
-    img {
-      height: 650px;
-      margin: 10px;
-    }
+//     img {
+//       height: 650px;
+//       margin: 10px;
+//     }
 
-    p {
-      color: #626262;
-      font-size: 20px;
-    }
+//     p {
+//       color: #626262;
+//       font-size: 20px;
+//     }
 
-  }
+//   }
 
-}
+// }
 
 #contact-section {
-  height: 100px;
+  height: 300px;
   text-align: center;
 
   a {
@@ -97,6 +147,8 @@ html {
 }
 
 #about-section {
-  height: 100px;
+  height: 300px;
   color: grey;
 }
+
+
