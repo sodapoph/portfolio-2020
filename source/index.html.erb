@@ -8,7 +8,7 @@ title: Soraida Henne
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#purple-bar">Work <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#bar">Work <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#about-section">About</a>
@@ -32,85 +32,50 @@ title: Soraida Henne
   </div> -->
 <div class="landing-bg">
   <h1>Soraida Henne <br>
-    Creative Code <br>
-    Design<br>
-    Web Development</h1>
+    <span class="landing-sub">
+      Creative Code <br>
+      Design<br>
+      Web Development</span></h1>
 </div>
-<div id="purple-bar">
-  <h2>Here's Some Stuff I Made</h2>
+<div id="bar">
 </div>
-<!-- generative gifs -->
-<h3>Generative Animations</h3>
-<p>
-  A selection of sketches created as a bridge between programming and art. These animations were all randomly generated with Processing.<br>
-  Processing, P5.js
-</p>
-<div class="gifs mx-3">
-  <div>
-    <%= image_tag("generativeFace.gif") %>
-    <%= image_tag("generativeCircle.gif") %>
-  </div>
-</div>
-<div class="app-section mx-3">
-  <!-- clever closet -->
-  <div class="row clever-closet">
-    <div class="logo-paragraph">
-      <%= image_tag("CleverClosetRed.png") %>
-      <p>Clever Closet is an environmentally conscious, closet organization web app developed by myself and a team of three other developers over the course of two weeks.
-        <br>
-        Ruby on Rails, HTML, CSS, JavaScript</p>
-      <div class="button-purple">
-        View Site
-      </div>
+<div id="app-section mx-3">
+  <!-- cards -->
+  <div class="cards">
+    <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/screenshot01.png)">
+      CleverCloset
     </div>
-    <div class="app-screens">
-      <%= image_tag("screenshot01.png") %>
-      <%= image_tag("screenshot02.png") %>
-      <%= image_tag("borrow.gif") %>
+    <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/obi01.png)">
+      OBI
+    </div>
+    <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/cocktail01.png)">
+      Cocktails & Soda
     </div>
   </div>
-  <!-- obi  -->
-  <div class="obi">
-    <div class="logo-paragraph">
-      <%= image_tag("CleverClosetRed.png") %>
-      <p>Clever Closet is an environmentally conscious, closet organization web app developed by myself and a team of three other developers over the course of two weeks.
-        <br>
-        Ruby on Rails, HTML, CSS, JavaScript</p>
-      <div class="button-purple">
-        View Site
-      </div>
-    </div>
-    <div class="app-screens">
-      <%= image_tag("obi01.png") %>
+  <!-- generative gifs -->
+  <div class="gifs mx-3">
+    <h3>Generative Animations</h3>
+    <p>
+      A selection of sketches created as a bridge between programming and art. These animations were all randomly generated with Processing.<br>
+      Processing, P5.js
+    </p>
+    <div>
+      <%= image_tag("generativeFace.gif") %>
+      <%= image_tag("generativeCircle.gif") %>
     </div>
   </div>
-  <!-- mister cocktail -->
-  <div class="cocktail">
-    <div class="logo-paragraph">
-      <%= image_tag("CleverClosetRed.png") %>
-      <p>Clever Closet is an environmentally conscious, closet organization web app developed by myself and a team of three other developers over the course of two weeks.
-        <br>
-        Ruby on Rails, HTML, CSS, JavaScript</p>
-      <div class="button-purple">
-        View Site
-      </div>
-    </div>
-    <div class="app-screens">
-      <%= image_tag("cocktail01.png") %>
-      <%= image_tag("cocktail02.png") %>
-    </div>
+  <!-- about -->
+  <div id="about-section">
+    <h2>About</h2>
+    <p>Soraida is a multimedia artist and web developer</p>
   </div>
-</div>
-<!-- about -->
-<div id="about-section">
-</div>
-<!-- contact -->
-<div id="contact-section">
-  <a href="https://www.linkedin.com/in/soraidahenne/" target="blank">
-    <i class="fab fa-linkedin"></i>
-  </a>
-  <a href="https://github.com/sodapoph" target="blank">
-    <i class="fab fa-github"></i>
-  </a>
-</div>
-</div>
+  <!-- contact -->
+  <div id="contact-section">
+    <h2>Contact</h2>
+    <a href="https://www.linkedin.com/in/soraidahenne/" target="blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/sodapoph" target="blank">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
