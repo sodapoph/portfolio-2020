@@ -37,7 +37,7 @@ $navbar-profile-border-width: 2px;
 .navbar {
   color: white;
   background: #0800fc;
-  font-size: 20px;
+  font-size: 22px;
 
   a {
     color: white;
@@ -48,7 +48,7 @@ $navbar-profile-border-width: 2px;
       font-family: "Libre Baskerville";
       font-style: italic;
       font-weight: bold;
-      color: white;
+      color: #ff00c1;
       // letter-spacing: 1px;
       // text-transform: uppercase;
   }
@@ -56,4 +56,12 @@ $navbar-profile-border-width: 2px;
 
 .navbar-nav {
   text-align: center;
+}
+.social-btns {
+    flex-direction: row;
+    display: flex;
+    display: flex;
+    margin: auto;
+    letter-spacing: 10px;
+    font-size: 26px;
 }
