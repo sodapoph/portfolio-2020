@@ -4,7 +4,7 @@ html {
 .card-category {
   background-size: cover;
   background-position: center;
-  height: 216px;
+  height: 232px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,14 +12,18 @@ html {
   font-size: 24px;
   font-weight: bold;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  // border: 12px solid #0800fc;
+  // border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
+  background: linear-gradient(rgba(228, 0, 255, 0.7), #eeeeee00);
+  padding-top: 70px;
 }
 
 // Smallest device
@@ -62,7 +66,6 @@ html {
     background: #0800fc;
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
 
   h1 {
     max-width: 50%;
@@ -80,10 +83,10 @@ html {
 }
 
 
-#bar {
-  width: 100%;
-  height: 65px;
-}
+// #bar {
+//   width: 100%;
+//   height: 65px;
+// }
 
 .gifs {
   display: flex;
@@ -137,18 +140,28 @@ html {
 #contact-section {
   height: 300px;
   text-align: center;
+  background-color: #0800fc;
 
   a {
     font-size: 30px;
     text-decoration: none;
-    color: #DAD3FF;
+    color: #ff00c1;
     padding-top: 20px;
   }
 }
 
 #about-section {
   height: 300px;
-  color: grey;
+  background-color: #ff00c1;
+  color: white;
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 12px;
+  }
 }
 
 
