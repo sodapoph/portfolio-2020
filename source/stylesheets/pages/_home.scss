@@ -141,6 +141,8 @@ html {
   height: 300px;
   text-align: center;
   background-color: #0800fc;
+  color: white;
+  padding-top: 10px;
 
   a {
     font-size: 30px;
@@ -151,16 +153,26 @@ html {
 }
 
 #about-section {
-  height: 300px;
+  height: 600px;
   background-color: #ff00c1;
   color: white;
+  display: flex;
+
+  align-content: center;
+  align-items: center;
 
   h2 {
+    padding: 10px;
     font-size: 28px;
   }
 
   p {
-    font-size: 12px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  img {
+    padding: 10px;
   }
 }
 
