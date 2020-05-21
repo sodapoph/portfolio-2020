@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  min-width: fit-content;
 }
 .card-category {
   background-size: cover;
@@ -61,6 +62,9 @@ html {
   }
 }
 
+// @media screen and (min-width: 25em){
+//   html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
+// }
 
 .landing-bg {
     background: #0800fc;
@@ -153,7 +157,7 @@ html {
 }
 
 #about-section {
-  height: 525px;
+  // height: 525px;
   background-color: #ff00c1;
   color: white;
   display: flex;
@@ -169,12 +173,15 @@ html {
 
     h2 {
       padding: 10px;
-      font-size: 28px;
+      // font-size: 28px;
+      font-size: 4vmin;
     }
 
     p {
       padding: 10px;
-      font-size: 16px;
+      // font-size: 16px;
+        font-size: 3vmin;
+
     }
 
   }
