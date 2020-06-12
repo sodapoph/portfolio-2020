@@ -22,7 +22,7 @@ html {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
-  background: linear-gradient(rgba(228, 0, 255, 0.7), #eeeeee00);
+  // background: linear-gradient(rgba(228, 0, 255, 0.7), #eeeeee00);
   padding: 70px 10px;
 
 }
@@ -67,7 +67,7 @@ html {
 // }
 
 .landing-bg {
-    background: #0800fc;
+    background: black;
     width: 100%;
     padding: 10px;
 
@@ -141,28 +141,15 @@ html {
 
 // }
 
-#contact-section {
-  height: 100px;
-  text-align: center;
-  background-color: #0800fc;
-  color: white;
-  padding-top: 10px;
-
-  a {
-    font-size: 30px;
-    text-decoration: none;
-    color: #ff00c1;
-    padding-top: 20px;
-  }
-}
 
 #about-section {
   // height: 525px;
-  background-color: #ff00c1;
-  color: white;
+  // background-color: #ff00c1;
+  color: #4a4a4a;
   display: flex;
   padding-right: 20px;
   padding-left: 20px;
+  padding-top: 20px;
 
   align-content: center;
   align-items: center;
@@ -175,6 +162,8 @@ html {
       padding: 10px;
       // font-size: 28px;
       font-size: 4vmin;
+      font-family: "Libre Baskerville";
+      font-style: italic;
     }
 
     p {
@@ -186,11 +175,30 @@ html {
 
   }
 
-  img {
-    padding: 10px;
-    width: 375px;
+  .me-face {
+    text-align:center;
+    align-self: center;
 
-  }
+      img {
+        padding: 10px;
+        width: 375px;
+
+      }
+    }
 }
 
+#contact-section {
+  height: 100px;
+  text-align: center;
+  background-color: #4a4a4a;
+  color: white;
+  padding-top: 10px;
+
+  a {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+  }
+}
 
