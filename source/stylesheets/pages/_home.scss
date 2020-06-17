@@ -67,16 +67,23 @@ html {
 // }
 
 .landing-bg {
-    background: black;
+    background: white;
     width: 100%;
     padding: 10px;
 
+  img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+
   h1 {
     max-width: 50%;
-    border: 5px solid #FFFFFF;
-    margin: 80px auto;
+    margin: 25px auto;
     text-align: center;
-    color: #FFFFFF;
+    color: #4a4a4a;
     font-weight: 400;
     padding: 20px;
 
@@ -87,64 +94,7 @@ html {
 }
 
 
-// #bar {
-//   width: 100%;
-//   height: 65px;
-// }
-
-// .gifs {
-//   display: flex;
-//   justify-content: space-evenly;
-//   padding: 20px;
-
-//     img {
-//       width: 45%;
-//       margin: 10px;
-//     }
-
-//     h3, p {
-//       color: #626262;
-//     }
-// }
-
-// .app-section {
-//   justify-content: space-between;
-//   height: 600px;
-//   background: #F5F5F5;
-//   padding: 30px;
-
-//   .logo-paragraph {
-//     width: 500px;
-//     padding: 20px;
-
-//     img {
-//       height: 10%;
-//       margin-bottom: 10px;
-//     }
-//   }
-
-//   .app-screens {
-//     padding: 20px;
-//     width: auto;
-
-//     img {
-//       height: 650px;
-//       margin: 10px;
-//     }
-
-//     p {
-//       color: #626262;
-//       font-size: 20px;
-//     }
-
-//   }
-
-// }
-
-
 #about-section {
-  // height: 525px;
-  // background-color: #ff00c1;
   color: #4a4a4a;
   display: flex;
   padding-right: 20px;
@@ -201,4 +151,5 @@ html {
     padding-top: 20px;
   }
 }
+
 
