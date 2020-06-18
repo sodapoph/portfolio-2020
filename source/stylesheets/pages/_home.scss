@@ -5,7 +5,7 @@ html {
 .card-category {
   background-size: cover;
   background-position: center;
-  height: 210px;
+  height: 330px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +23,7 @@ html {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
   // background: linear-gradient(rgba(228, 0, 255, 0.7), #eeeeee00);
-  padding: 70px 10px;
+  padding: 30px 10px;
 
 }
 
@@ -72,18 +72,18 @@ html {
     padding: 10px;
 
   img {
-    width: 50%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+
   }
 
   h1 {
     max-width: 50%;
     margin: 25px auto;
     text-align: center;
-    color: #4a4a4a;
+    color: #FB0202;
     font-weight: 400;
     padding: 20px;
 
@@ -93,6 +93,18 @@ html {
   }
 }
 
+.container {
+  h2 {
+    font-family: "Roboto";
+    font-weight: lighter;
+    color: #FB0202;
+  }
+
+  p {
+    color: #4a4a4a;
+    margin-bottom: 24px;
+  }
+}
 
 #about-section {
   color: #4a4a4a;
@@ -112,14 +124,14 @@ html {
       padding: 10px;
       // font-size: 28px;
       font-size: 4vmin;
-      font-family: "Libre Baskerville";
+      font-family: "Roboto";
       font-style: italic;
     }
 
     p {
       padding: 10px;
       // font-size: 16px;
-        font-size: 3vmin;
+        font-size: 14px;
 
     }
 
@@ -140,16 +152,27 @@ html {
 #contact-section {
   height: 100px;
   text-align: center;
-  background-color: #4a4a4a;
+  background-color: #FFC062;
   color: white;
   padding-top: 10px;
 
   a {
     font-size: 30px;
     text-decoration: none;
-    color: white;
+    color: #FB0202;
     padding-top: 20px;
   }
 }
 
+#closetCarousel {
+  width: 35%;
+  height: 80%;
+}
 
+.carousel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+}
