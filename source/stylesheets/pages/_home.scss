@@ -79,6 +79,7 @@ html {
 
   }
 
+
   h1 {
     max-width: 50%;
     margin: 25px auto;
@@ -96,6 +97,8 @@ html {
 .container {
   h2 {
     font-family: "Roboto";
+    font-size: 4vmin;
+
     font-weight: lighter;
     color: #FB0202;
   }
@@ -109,9 +112,8 @@ html {
 #about-section {
   color: #4a4a4a;
   display: flex;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 20px;
+  padding: 20px;
+
 
   align-content: center;
   align-items: center;
@@ -121,7 +123,7 @@ html {
     width: 450px;
 
     h2 {
-      padding: 10px;
+      // padding: 10px;
       // font-size: 28px;
       font-size: 4vmin;
       font-family: "Roboto";
@@ -129,7 +131,7 @@ html {
     }
 
     p {
-      padding: 10px;
+      padding: 5px;
       // font-size: 16px;
         font-size: 14px;
 
