@@ -19,7 +19,7 @@ html {
 
 #cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
 }
 
@@ -47,14 +47,14 @@ html {
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   #cards {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   #cards {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -86,6 +86,14 @@ html {
   p {
     color: #4a4a4a;
     margin-bottom: 24px;
+  }
+  .tech-logos {
+    margin-bottom: 20px;
+    margin-left: -5px;
+
+    img {
+      width: 40px;
+    }
   }
 }
 
