@@ -13,7 +13,6 @@ html {
   font-size: 24px;
   font-weight: bold;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  // border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 
 }
@@ -22,9 +21,6 @@ html {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
-  // background: linear-gradient(rgba(228, 0, 255, 0.7), #eeeeee00);
-  padding: 30px 10px;
-
 }
 
 // Smallest device
@@ -67,40 +63,24 @@ html {
 // }
 
 .landing-bg {
-    background: white;
+    // background-color: #FFC062;
     width: 100%;
-    padding: 10px;
+    margin-bottom: 50px;
 
   img {
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
+    width: inherit;
   }
 
-
-  h1 {
-    max-width: 50%;
-    margin: 25px auto;
-    text-align: center;
-    color: #FB0202;
-    font-weight: 400;
-    padding: 20px;
-
-    .landing-sub {
-      font-size: 18px;
-    }
-  }
 }
 
 .container {
+  margin-bottom: 50px;
+
   h2 {
     font-family: "Roboto";
     font-size: 4vmin;
-
     font-weight: lighter;
-    color: #FB0202;
+    color: #FF8D05;
   }
 
   p {
@@ -123,17 +103,13 @@ html {
     width: 450px;
 
     h2 {
-      // padding: 10px;
-      // font-size: 28px;
       font-size: 4vmin;
       font-family: "Roboto";
-      font-style: italic;
     }
 
     p {
       padding: 5px;
-      // font-size: 16px;
-        font-size: 14px;
+      font-size: 14px;
 
     }
 
