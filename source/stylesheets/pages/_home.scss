@@ -20,7 +20,7 @@ html {
 #cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 16px;
+  grid-gap: 24px;
 }
 
 // Smallest device
@@ -77,8 +77,9 @@ html {
   margin-bottom: 50px;
 
   h2 {
+    margin-top: 0px;
     font-family: "Roboto";
-    font-size: 4vmin;
+    font-size: 24px;
     font-weight: lighter;
     color: #FF8D05;
   }
@@ -86,14 +87,20 @@ html {
   p {
     color: #4a4a4a;
     margin-bottom: 24px;
+    font-size: 18px;
+
   }
   .tech-logos {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     margin-left: -5px;
 
     img {
       width: 40px;
     }
+  }
+
+  iframe {
+    margin-top: 24px;
   }
 }
 
@@ -111,13 +118,13 @@ html {
     width: 450px;
 
     h2 {
-      font-size: 4vmin;
+      font-size: 24px;
       font-family: "Roboto";
     }
 
     p {
       padding: 5px;
-      font-size: 14px;
+      font-size: 18px;
 
     }
 
@@ -143,7 +150,7 @@ html {
   padding-top: 10px;
 
   a {
-    font-size: 30px;
+    font-size: 42px;
     text-decoration: none;
     color: #FB0202;
     padding-top: 20px;
