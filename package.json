@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "flickity": "^2.2.1",
     "rfs": "^9.0.3"
   }
 }
