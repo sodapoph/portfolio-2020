@@ -74,7 +74,7 @@ html {
 }
 
 .container {
-  margin-bottom: 50px;
+  margin-bottom: 65px;
 
   h2 {
     margin-top: 0px;
@@ -157,18 +157,7 @@ html {
   }
 }
 
-#closetCarousel {
-  width: 35%;
-  height: 80%;
-}
 
-.carousel {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-
-}
 /* external css: flickity.css */
 
 * { box-sizing: border-box; }
@@ -181,11 +170,23 @@ body { font-family: sans-serif; }
 
 .carousel img {
   display: block;
-  height: 200px;
+  height: 400px;
 }
 
 @media screen and ( min-width: 768px ) {
   .carousel img {
     height: 400px;
+  }
+
+  #closet-carousel {
+    width: 100%;
+
+  .carousel-cell {
+    width: 50%;
+  }
+    img {
+    margin-right: 10px;
+
+    }
   }
 }
