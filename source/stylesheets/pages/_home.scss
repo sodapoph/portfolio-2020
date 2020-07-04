@@ -5,7 +5,7 @@ html {
 .card-category {
   background-size: cover;
   background-position: center;
-  height: 330px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,13 +100,16 @@ html {
   }
 
   iframe {
+    display: block;
+    width: 100%;
     margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 #about-section {
   color: #4a4a4a;
-  display: flex;
   padding: 20px;
 
 
@@ -114,49 +117,56 @@ html {
   align-items: center;
   justify-content: space-evenly;
 
-  .about-text {
-    width: 450px;
+  h2 {
+  margin-top: 0px;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: lighter;
+  color: #FF8D05;
 
-    h2 {
-      font-size: 24px;
-      font-family: "Roboto";
-    }
+  }
+
+  .about-text {
 
     p {
       padding: 5px;
       font-size: 18px;
-
     }
-
   }
 
   .me-face {
-    text-align:center;
-    align-self: center;
+    text-align:right;
 
       img {
         padding: 10px;
-        width: 375px;
+        width: 100px;
 
       }
     }
 }
 
 #contact-section {
-  height: 100px;
+  height: 125px;
   text-align: center;
   background-color: #FFC062;
   color: white;
   padding-top: 10px;
 
-  a {
-    font-size: 42px;
-    text-decoration: none;
-    color: #FB0202;
-    padding-top: 20px;
+  .contact-icons {
+
+    a {
+      font-size: 42px;
+      text-decoration: none;
+      color: #FB0202;
+      padding-top: 20px;
+    }
+  }
+
+  p {
+    font-size: 18px;
+    margin-bottom: 0px;
   }
 }
-
 
 /* external css: flickity.css */
 
@@ -167,13 +177,9 @@ body { font-family: sans-serif; }
 .carousel {
   background: #EEE;
   box-shadow: 0 0 12px rgba(0,0,0,0.2);
-  height: 300px;
+  height: 400px;
 
 }
-
-// .carousel img {
-//   display: flex;
-// }
 
 .carousel-cell {
   display: flex;
@@ -184,7 +190,7 @@ body { font-family: sans-serif; }
 
 .carousel-image {
   display: block;
-  height: 300px;
+  height: 400px;
   /* set min-width, allow images to set cell width */
   min-width: 50px;
   max-width: 100%;
@@ -203,23 +209,6 @@ body { font-family: sans-serif; }
   max-height: 100%;
 }
 
-// @media screen and ( min-width: 768px ) {
-//   // .carousel img {
-//   //   height: 400px;
-//   // }
-
-//   #closet-carousel {
-//     width: 100%;
-
-//   .carousel-cell {
-//     width: 100%;
-//   }
-//     img {
-//     margin-right: 10px;
-
-//     }
-//   }
-// }
 .carousel.is-fullscreen .carousel-cell {
   height: 100%;
   width: 100%;
