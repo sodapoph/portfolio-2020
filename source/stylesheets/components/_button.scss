@@ -1,6 +1,15 @@
-.btn-outline-secondary {
-  margin-bottom: 20px;
-  width: 100px;
-  border-radius: 10px;
+.btn.site-btn {
+color: #4A4A4A;
+border: 1px solid #4A4A4A;
+padding: 8px 32px;
+border-radius: 50px;
+opacity: 0.6;
+transition: opacity 0.3s ease;
+margin-left: 15px;
+font-size: 14px;
 
+}
+
+.btn.site-btn:hover {
+  opacity: 1;
 }
