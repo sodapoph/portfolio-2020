@@ -81,7 +81,7 @@ html {
     font-family: "Roboto";
     font-size: 24px;
     font-weight: lighter;
-    color: #FF8D05;
+    color: #1401ff;
   }
 
   p {
@@ -110,7 +110,7 @@ html {
 
 #about-section {
   color: #4a4a4a;
-  padding: 20px;
+  // padding: 20px;
 
 
   align-content: center;
@@ -122,23 +122,21 @@ html {
   font-family: "Roboto";
   font-size: 24px;
   font-weight: lighter;
-  color: #FF8D05;
+  color: #1401ff;
 
   }
 
   .about-text {
 
     p {
-      padding: 5px;
       font-size: 18px;
     }
   }
 
   .me-face {
-    text-align:right;
+    text-align: center;
 
       img {
-        padding: 10px;
         width: 100px;
 
       }
@@ -148,7 +146,7 @@ html {
 #contact-section {
   height: 125px;
   text-align: center;
-  background-color: #FFC062;
+  background-color: #1401ff;
   color: white;
   padding-top: 10px;
 
@@ -157,7 +155,7 @@ html {
     a {
       font-size: 42px;
       text-decoration: none;
-      color: #FB0202;
+      color: white;
       padding-top: 20px;
     }
   }
@@ -193,7 +191,6 @@ body { font-family: sans-serif; }
   height: 400px;
   /* set min-width, allow images to set cell width */
   min-width: 50px;
-  max-width: 100%;
   margin-right: 10px;
   /* vertically center */
   top: 50%;
@@ -202,11 +199,21 @@ body { font-family: sans-serif; }
 
 #closet-carousel img {
   margin-right: 40%;
+  max-width: 100%;
 
 }
+
+#obi-carousel img {
+}
+
+#cocktail-carousel img {
+
+}
+
 .carousel.is-fullscreen .carousel-image {
   height: auto;
   max-height: 100%;
+  max-width: 100%;
 }
 
 .carousel.is-fullscreen .carousel-cell {
