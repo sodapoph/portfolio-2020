@@ -63,7 +63,7 @@ html {
 // }
 
 .landing-bg {
-    // background-color: #FFC062;
+    background-color: #1401ff;
     width: 100%;
     margin-bottom: 50px;
 
@@ -207,6 +207,15 @@ body { font-family: sans-serif; }
 }
 
 #sprout-carousel {
+
+  img {
+    margin-right: 40%;
+    max-width: 100%;
+
+  }
+}
+
+#chicken-coop-carousel {
 
   img {
     margin-right: 40%;
