@@ -48,11 +48,8 @@ $navbar-profile-border-width: 2px;
   }
 
   a:hover {
-      font-family: "Libre Baskerville";
-      font-style: italic;
-      font-weight: bold;
-      color: white;
-      text-decoration: none;
+    color: white;
+    text-decoration: underline solid white;
   }
 }
 
