@@ -14,26 +14,15 @@
 //     document.getElementById("logo").style.fontSize = "35px";
 //   }
 // }
-// $(document).ready(function() {
 
-//     /* Every time the window is scrolled ... */
-//     $(window).scroll( function(){
+const checkpoint = 300;
 
-//         /* Check the location of each desired element */
-//         $('.hideme').each( function(i){
-
-//             var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-//             var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-//             /* If the object is completely visible in the window, fade it it */
-//             if( bottom_of_window > bottom_of_object ){
-
-//                 $(this).animate({'opacity':'1'},600);
-
-//             }
-
-//         });
-
-//     });
-
-// });
+window.addEventListener("scroll", () => {
+  const currentScroll = window.pageYOffset;
+  if (currentScroll <= checkpoint) {
+    opacity = 1 - currentScroll / checkpoint;
+  } else {
+    opacity = 0;
+  }
+  document.querySelector(".banner-img").style.opacity = opacity;
+});
