@@ -1,7 +1,7 @@
 ---
 title: Soraida Henne
 ---
-<div class="navbar">
+<!-- <div class="navbar sticky-top">
   <div class="work-nav">
     <a href="#clever-closet">Work</a>
   </div>
@@ -11,21 +11,63 @@ title: Soraida Henne
   <div class="contact-nav">
     <a href="https://drive.google.com/file/d/1hwRWmLWpCoK-0gQc0ACaXWp042hibssz/view?usp=sharing" target="blank">Resume</a>
   </div>
-</div>
-<!-- <div id="navbar">
-  <a href="#default" id="logo">CompanyLogo</a>
-  <div id="navbar-right">
-    <a class="active" href="#home">Home</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+</div> -->
+<!-- new nav -->
+<!-- <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+  <a class="navbar-brand" href="#">
+    <img src="images/name-logo.png"/>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#clever-closet">Work</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about-section">About</a>
+      </li>
+      <li class="nav-item">
+      </li>
+    </ul>
   </div>
 </div> -->
-<div class="landing-bg">
-  <img src="images/banner-02.png" alt="name-logo">
+<!-- banner  -->
+<div class="landing-bg" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(images/yellow-tech.png);">
+  <img src="images/nice2.gif" alt="name-logo" class="banner-img">
 </div>
-<div id="app-section mx-3">
+  <!-- about -->
+
+<div id="about-section">
+  <div class="container">
+  <div class="about-text">
+  <h2>Hi! I'm Soraida, Designer & Web Developer</h2>
+    <p>
+      I'm a web developer and multimedia artist based out of Minneapolis, Minnesota.
+    <br>
+    <br>
+      I'm a graduate of Minneapolis College of Art and Design with a BFA in Web and Multimedia Environments. I recently attended Le Wagon Tokyo, a 9-week intensive coding bootcamp to learn HTML, CSS, Bootstrap, JavaScript ES2015, SQL, git, GitHub, Heroku and Ruby on Rails.
+    <br>
+    <br>
+      In my spare time, I like to sing karaoke, eat good food, and see the world through my thick glasses.</p>
+    </p>
+    <div class="intro-btns">
+      <!-- <a class="btn site-btn" href="#closet-section">Check Out My Work</a> -->
+      <!-- <a class="btn site-btn" href="#contact-section">Contact Me</a> -->
+      <a class="btn site-btn" href="https://drive.google.com/file/d/1hwRWmLWpCoK-0gQc0ACaXWp042hibssz/view?usp=sharing" target="blank">See My Resume</a>
+    </div>
+  </div>
+  </div>
+<!--   <div class="me-face">
+    <img src="images/me-face.svg" alt="my mug">
+  </div> -->
+</div>
+
   <!-- clever closet  -->
-  <div class="container hideme" id="clever-closet">
+<div id="app-section mx-3">
+  <div class="container" id="closet-section">
     <h2>CleverCloset</h2>
     <p>A mobile application dedicated to reducing one's impact on the environment by managing the clothes the user may already own, and encouraging the user to donate to charity shops or share their clothing items among friends. This project was developed in two weeks in a team of four. I handled front-end development and the UI/UX. </p>
     <div class="tech-logos">
@@ -34,6 +76,9 @@ title: Soraida Henne
       <img src="images/javascript-o.svg" alt="js logo">
       <img src="images/ruby-o.svg" alt="ruby logo">
     </div>
+<!--     <div class="project-banner">
+      <img src="images/clever-closet/cc-banner.png">
+    </div> -->
     <div class="carousel" id="closet-carousel"
   data-flickity='{ "fade": true, "wrapAround": true, "autoPlay": true, "percentPosition": false, "fullscreen": true, "imagesLoaded": true }'>
       <img src="images/clever-closet/cc-screen-01.png" class="carousel-image" alt="homescreen" />
@@ -65,7 +110,6 @@ title: Soraida Henne
       <img src="images/obi/new-listing.png" class="carousel-image" alt="new listing" />
     </div>
   </div>
-</div>
 <!-- cocktails -->
 <div class="container hideme">
   <h2>Cocktails & Soda</h2>
@@ -89,9 +133,6 @@ title: Soraida Henne
   <h2>Sprout UI Mockup</h2>
   <p>Mock-ups for a mobile app pitch. Sprout is an app that helps users manage their house plants. Users can log every plant they own, set watering alarms, and connect with local plant enthusiasts to share tips and tricks.</p>
   <p>Created with Figma.</p>
-  <!--   <div class="tech-logos">
-    <img src="images/figma-brands.svg" alt="figma logo">
-  </div> -->
   <div class="carousel" id="sprout-carousel"
   data-flickity='{ "wrapAround": true, "autoPlay": true, "percentPosition": false, "fullscreen": true, "imagesLoaded": true }'>
     <img src="images/sprout/welcome.png" class="carousel-image" alt="sprout welcome" />
@@ -107,9 +148,6 @@ title: Soraida Henne
   <h2>Chicken Coop UI Mockup</h2>
   <p>Mock-ups for a mobile app pitch. Chicken Coop is an app that helps users find local farms and agriculture hobbyists who sell eggs, dairy, and honey.</p>
   <p>Created with Figma.</p>
-  <!--   <div class="tech-logos">
-    <img src="images/figma-brands.svg" alt="figma logo">
-  </div> -->
   <div class="carousel" id="chicken-coop-carousel"
   data-flickity='{ "wrapAround": true, "autoPlay": true, "percentPosition": false, "fullscreen": true, "imagesLoaded": true }'>
     <img src="images/chicken-coop/welcome.png" class="carousel-image" alt="sprout login" />
@@ -138,7 +176,6 @@ title: Soraida Henne
       <img src="images/generativeCircle.gif" class="carousel-image" alt="circles" />
       <img src="images/bubbles.gif" class="carousel-image" alt="bubbles" />
     </div>
-
   </div>
   <!-- make me -->
   <div class="container hideme">
@@ -160,27 +197,7 @@ title: Soraida Henne
     </div>
     <iframe src="https://player.vimeo.com/video/322678701" width="640" height="364" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   </div>
-<!-- about -->
-<div class="container hideme">
-  <div id="about-section">
-    <h2>About</h2>
-    <div class="about-text">
-      <p>
-        Soraida is a web developer and multimedia artist based out of Minneapolis, Minnesota who integrates a love for illustration with ever-changing technologies.
-      </p>
-      <p>
-        She is a graduate of Minneapolis College of Art and Design with a BFA in Web and Multimedia Environments. She recently attended Le Wagon Tokyo, a 9-week intensive coding bootcamp to learn HTML, CSS, Bootstrap, JavaScript ES2015,
-        SQL, git, GitHub, Heroku and Ruby on Rails.
-      </p>
-      <p>
-        In her spare time, Soraida likes to sing karaoke, eat good food, and see the world through her thick glasses.</p>
-    </p>
-  </div>
-  <div class="me-face">
-    <img src="images/me-face.svg" alt="my mug">
-  </div>
-</div>
-</div>
+
 <!-- contact -->
 <div id="contact-section">
   <p>Let's get in touch!</p>
