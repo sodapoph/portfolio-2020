@@ -27,8 +27,9 @@ html {
 
   h2 {
     margin-top: 0px;
+    margin-bottom: 18px;
     font-family: "Roboto";
-    font-size: 24px;
+    font-size: 26px;
     font-weight: lighter;
     color: #f39302;
   }
@@ -40,11 +41,16 @@ html {
 
   }
   .tech-logos {
-    margin-bottom: 32px;
+    margin-top: 15px;
+    margin-bottom: 30px;
     margin-left: -5px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
 
     img {
-      width: 40px;
+      width: 30px;
+      margin-right: 5px;
     }
   }
 
@@ -76,7 +82,7 @@ html {
   margin-top: 0px;
   margin-bottom: 20px;
   font-family: "Roboto";
-  font-size: 24px;
+  font-size: 26px;
   font-weight: lighter;
   color: #f39302;
 
