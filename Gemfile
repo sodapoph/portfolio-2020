@@ -29,6 +29,6 @@ gem 'middleman-sprockets'
 
 gem "kramdown", ">= 2.3.0"
 gem "activesupport", ">= 5.2.4.3"
-gem "rack", ">= 2.2.3"
+gem "rack", ">= 2.1.4"
 gem "ffi", ">= 1.9.24"
-gem "sprockets", ">= 4.0.2"
+gem "sprockets", ">= 3.7.2"
