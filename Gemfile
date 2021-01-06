@@ -26,3 +26,9 @@ gem 'font-awesome-sass'
 gem 'sass-globbing'
 ## Middleman sprockets
 gem 'middleman-sprockets'
+
+gem "kramdown", ">= 2.3.0"
+gem "activesupport", ">= 5.2.4.3"
+gem "rack", ">= 2.1.4"
+gem "ffi", ">= 1.9.24"
+gem "sprockets", ">= 3.7.2"
