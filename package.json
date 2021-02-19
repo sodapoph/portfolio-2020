@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "flickity": "^2.2.1",
-    "flickity-fade": "^1.0.0",
-    "flickity-fullscreen": "^1.1.1",
-    "flickity-imagesloaded": "^2.0.0",
-    "rfs": "^9.0.3"
-  }
-}

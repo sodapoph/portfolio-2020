@@ -121,13 +121,18 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport (>= 5.2.4.3)
   bootstrap-sass
+  ffi (>= 1.9.24)
   font-awesome-sass
   jquery-middleman
+  kramdown (>= 2.3.0)
   middleman (~> 4.2)
   middleman-gh-pages
   middleman-sprockets
+  rack (>= 2.1.4)
   sass-globbing
+  sprockets (>= 3.7.2)
   tzinfo-data
   wdm (~> 0.1.0)
 
