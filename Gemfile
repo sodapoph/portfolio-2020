@@ -18,12 +18,13 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 # Assets
 gem 'jquery-middleman'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>=2.1.0'
 gem 'font-awesome-sass'
 
 # Assets compiling
 ## SCSS glob compiling
-gem 'sass-globbing'
+
 ## Middleman sprockets
 gem 'middleman-sprockets'
 
