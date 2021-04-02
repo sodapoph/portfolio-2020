@@ -9,10 +9,11 @@
 @import "config/bootstrap_variables";
 
 // Our CSS
-@import "layout/*";
-@import "components/*";
-@import "pages/*";
-@import "vendor/*";
+@import "components/button";
+@import "layout/footer";
+@import "layout/navbar";
+@import "pages/home";
+@import "vendor/animation_cheat_sheet";
 
 // rescalable font sizes
 // @import "../node_modules/rfs/scss";
